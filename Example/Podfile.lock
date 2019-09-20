@@ -1,0 +1,16 @@
+PODS:
+  - EA (0.1.0)
+
+DEPENDENCIES:
+  - EA (from `../`)
+
+EXTERNAL SOURCES:
+  EA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EA: 2cdf16e0978df95d65bc8193ff89f65257c63ef1
+
+PODFILE CHECKSUM: 2dab6bcf4c5c834a702d9aa02e769dd67ee15d2d
+
+COCOAPODS: 1.7.5

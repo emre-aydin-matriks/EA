@@ -1,0 +1,6 @@
+framework module EA {
+  umbrella header "EA-umbrella.h"
+
+  export *
+  module * { export * }
+}
