@@ -1,5 +1,5 @@
 PODS:
-  - EA (0.1.0)
+  - EA (0.1.01)
 
 DEPENDENCIES:
   - EA (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EA: 11a8595414c0dd1b6670dc6f0ee001b154eacfe9
+  EA: ab7ae490b121d0c45a20df3b4935864b1881eeb3
 
 PODFILE CHECKSUM: 2dab6bcf4c5c834a702d9aa02e769dd67ee15d2d
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.1

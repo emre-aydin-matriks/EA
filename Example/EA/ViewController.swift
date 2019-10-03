@@ -15,9 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-//        let eaView = EAView(frame: view.frame)
-//        view.addSubview(eaView)
-        
+        let customView = CustomView(frame: view.frame)
+        view.addSubview(customView)
     }
 
     override func didReceiveMemoryWarning() {

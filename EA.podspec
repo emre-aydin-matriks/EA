@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EA'
-  s.version          = '0.1.0'
+  s.version          = '0.1.01'
   s.summary          = 'EA is an example pod from Emre AYDIN.'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'EA/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'EA' => ['EA/Assets/*.png']
-  # }
+  s.resources = 'EA/Assets/**/*.*'
+  
+  s.resource_bundles = {
+      'EA' => ['EA/Assets/**/*.*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
