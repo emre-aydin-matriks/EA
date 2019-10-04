@@ -7,21 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017FFA35920EBE6E682ACEE7CC181A2E /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07029D834578206FA91A48D93F0C617C /* CustomView.xib */; };
-		04430E0782FF04ABF470E6AA3647FB33 /* UINibExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A5A307DA1BCD20A0F9934F8D4911AE /* UINibExtension.swift */; };
-		2913E685B3C454F73BFBA85E7F6613B3 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07029D834578206FA91A48D93F0C617C /* CustomView.xib */; };
-		2F8C6F4DBC911FEFC7CE2FE2CCAA4CF5 /* EA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D83205E5477E45EAFB3DE1299E561A0 /* EA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B104D93C0FE1905228D4B4C746F7710 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5348F335A244DBBFB01A92DE56A4C75C /* CustomView.xib */; };
+		275E9E1737956DBA581E23D92FAEC33D /* EA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53288B0D41CD1EE05235A0091E402C3B /* EA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33DFBD6A0C438E64C59B693532EF185B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3C52603298504F4EA096764B79BC9762 /* EAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464C00BC75511595CDFC8D1D2A75D28E /* EAView.swift */; };
-		3F92993C998A01FADF49BD4C240F2DF0 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C6461DDA87DA9E51A57F98215CEEAC /* CustomView.swift */; };
+		3838D0EC83FF544620EDE534FBA86482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		679438155A8C20301A34A3C336C97BC9 /* UINibExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A8286EA79BECCC59110602F50E9CF /* UINibExtension.swift */; };
+		8D1F54882ECC034D5EFFC1A37E9C345E /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5348F335A244DBBFB01A92DE56A4C75C /* CustomView.xib */; };
 		8D91E091EFBCD4490816440BDF3D3B6E /* Pods-EA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E679D78A44138B7BD7725ABCB235CA /* Pods-EA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E37146AE4B3B771E5D5BEF90A4D5CC /* EA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF345CBB8D9F34FECBA680F176546A /* EA-dummy.m */; };
 		9743A79CB95757ED78CADD4B772C532F /* Pods-EA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3225D4164EFC3BC4DA9B86C9CD2981 /* Pods-EA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D9B2285AEBE9B0DC4C83613F6A257D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A7B96ED50314064B6DD4FBBBD34EAB73 /* EA.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A5B29B9B04737BFBD05E79E68A79EE /* EA.bundle */; };
 		ADF329F5ACB7F6F647B07CE04F0082DC /* Pods-EA_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D331494C2E09142D362B14FDC2717917 /* Pods-EA_Tests-dummy.m */; };
-		B94D1BC020EC6D7F8AC51DAC8150A6FA /* EA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AD79EFCA5B9AB706EDEB594EA9B211 /* EA-dummy.m */; };
+		C2E4D6E2209EEAE9566980A78BE40546 /* EA.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A5B29B9B04737BFBD05E79E68A79EE /* EA.bundle */; };
+		EB1C6C6BCA6D0E4C16533A0566F96A17 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1478D1802BA1698073FB164E775AFC /* CustomView.swift */; };
 		EC819A824F7915E5EBC63E13ECC8C7CF /* Pods-EA_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F06E2BAE9D48BA4DDB798555F00C2A41 /* Pods-EA_Example-dummy.m */; };
-		F5B60062456C9295C6F02D9E76337023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +31,7 @@
 			remoteGlobalIDString = 437943655D4FD0C32733C9B2DF6095F4;
 			remoteInfo = EA;
 		};
-		801150754728E49DD56242C99F0CAC0E /* PBXContainerItemProxy */ = {
+		497D4CD7ED8CF79B827028ADE94127EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -50,60 +49,44 @@
 
 /* Begin PBXFileReference section */
 		04A5B29B9B04737BFBD05E79E68A79EE /* EA.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EA.bundle; path = "EA-EA.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07029D834578206FA91A48D93F0C617C /* CustomView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CustomView.xib; path = EA/Assets/CustomView.xib; sourceTree = "<group>"; };
 		079385E5871140038B9016A38A625C6A /* Pods-EA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EA_Example.release.xcconfig"; sourceTree = "<group>"; };
 		07E679D78A44138B7BD7725ABCB235CA /* Pods-EA_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EA_Example-umbrella.h"; sourceTree = "<group>"; };
+		09E5FBB1F86664483434857ACF01D6C4 /* EA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EA.modulemap; sourceTree = "<group>"; };
 		0ACAB8ECF63C4FA0A1B0358C7429B66F /* EA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EA.framework; path = EA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFD11115F744DB37A599AB008C974A3 /* Pods-EA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EA_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		304526E959DF35B735ED9AD4F06F33CF /* Pods_EA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EA_Tests.framework; path = "Pods-EA_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4562B3877AC49F735E8D9304FF63DEED /* EA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EA-Info.plist"; sourceTree = "<group>"; };
-		464C00BC75511595CDFC8D1D2A75D28E /* EAView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EAView.swift; path = EA/Classes/EAView.swift; sourceTree = "<group>"; };
-		48C6461DDA87DA9E51A57F98215CEEAC /* CustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = EA/Classes/CustomView.swift; sourceTree = "<group>"; };
-		4C474454193FDB3414553F79B2918B36 /* EA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EA.modulemap; sourceTree = "<group>"; };
-		4D83205E5477E45EAFB3DE1299E561A0 /* EA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EA-umbrella.h"; sourceTree = "<group>"; };
+		3C1478D1802BA1698073FB164E775AFC /* CustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = EA/Classes/CustomView.swift; sourceTree = "<group>"; };
+		3C8A8286EA79BECCC59110602F50E9CF /* UINibExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINibExtension.swift; path = EA/Classes/UINibExtension.swift; sourceTree = "<group>"; };
+		4873D274541B558C3E3A224F5BB8FBD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		53288B0D41CD1EE05235A0091E402C3B /* EA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EA-umbrella.h"; sourceTree = "<group>"; };
+		5348F335A244DBBFB01A92DE56A4C75C /* CustomView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CustomView.xib; path = EA/Assets/CustomView.xib; sourceTree = "<group>"; };
 		53DD9DFF8D0FD53BB15D325891480A73 /* Pods-EA_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EA_Tests-Info.plist"; sourceTree = "<group>"; };
-		597021F7AB1BE5B376AD4255367CF72F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		63E2A8467985C17852B994B30F29CEA3 /* Pods-EA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EA_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6D7B461F9B215F3090334A0B8507A762 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		73D78753DF53E66CD957FEB2BFFF8BED /* Pods-EA_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EA_Tests.modulemap"; sourceTree = "<group>"; };
 		75566EFF9F694747A49B4FC939B9F0FE /* Pods-EA_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EA_Example-frameworks.sh"; sourceTree = "<group>"; };
-		76A5A307DA1BCD20A0F9934F8D4911AE /* UINibExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINibExtension.swift; path = EA/Classes/UINibExtension.swift; sourceTree = "<group>"; };
-		76D2E3ACE02FB2DA0A3FA52F06A25852 /* EA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EA.xcconfig; sourceTree = "<group>"; };
 		76D6577D2779924F1BAB7A8C4219FE94 /* Pods-EA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		77A68CE0A53C1147831C816551079CE8 /* ResourceBundle-EA-EA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EA-EA-Info.plist"; sourceTree = "<group>"; };
 		7B3225D4164EFC3BC4DA9B86C9CD2981 /* Pods-EA_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EA_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7BB1EAEECA9AA4AC5F8C6C57DF74EE9D /* EA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EA-prefix.pch"; sourceTree = "<group>"; };
 		87E35C35E9ED0297F7F0C1786B120282 /* Pods-EA_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EA_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		890AA5D88B75B90D2B2FABC3C595E98F /* Pods-EA_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EA_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B6357803574CBBCF23AA2E8705983BE /* EA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C27F4DDF1D0CFEF89E60EBE3E99C8F9 /* ResourceBundle-EA-EA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EA-EA-Info.plist"; sourceTree = "<group>"; };
+		93308EC44724575FD5F93BF4382EBEFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9BEF345CBB8D9F34FECBA680F176546A /* EA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EA-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A36B6EB2C85FBF036B5ADDA90705F83D /* Pods-EA_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EA_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A921A9EFD559064CA434857BDC5933DD /* Pods_EA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EA_Example.framework; path = "Pods-EA_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A99FE7E7841D4303471B79AA60E1C3E2 /* Pods-EA_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EA_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B11288EA66C8D2E7420620261076D52E /* EA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EA.xcconfig; sourceTree = "<group>"; };
+		C6E4DC70720555A4A20BC20771407489 /* EA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D09F96BE623889AB82D03EA050C384A6 /* Pods-EA_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EA_Example-Info.plist"; sourceTree = "<group>"; };
 		D331494C2E09142D362B14FDC2717917 /* Pods-EA_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EA_Tests-dummy.m"; sourceTree = "<group>"; };
 		D428803C8280E56B86EC708F537AD29E /* Pods-EA_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EA_Example.modulemap"; sourceTree = "<group>"; };
 		F06E2BAE9D48BA4DDB798555F00C2A41 /* Pods-EA_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EA_Example-dummy.m"; sourceTree = "<group>"; };
-		F8AD79EFCA5B9AB706EDEB594EA9B211 /* EA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EA-dummy.m"; sourceTree = "<group>"; };
+		F82A2EA17BED8A2A360A17427523EAEE /* EA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EA-prefix.pch"; sourceTree = "<group>"; };
+		FE43CF58B7ABDAE96096324409D28B11 /* EA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EA-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2785F0E812698D19BC0C4461ECA6B95C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5B60062456C9295C6F02D9E76337023 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B06F1304B7041C797DE4026973FED0D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B55A3CF56C5D7E0A69CE63AA6F50A4F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,11 +95,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C79F5C32A898863F5BA9DB1CC0EE77CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3838D0EC83FF544620EDE534FBA86482 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C91DA1DD1BE65CB562385FDA94D69DF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9D9B2285AEBE9B0DC4C83613F6A257D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF255EC768092412F1ED6A0BE08D2B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,20 +138,6 @@
 			path = "Target Support Files/Pods-EA_Example";
 			sourceTree = "<group>";
 		};
-		1C3F4D84DA9E37BD20CC3B8CABE23935 /* EA */ = {
-			isa = PBXGroup;
-			children = (
-				48C6461DDA87DA9E51A57F98215CEEAC /* CustomView.swift */,
-				464C00BC75511595CDFC8D1D2A75D28E /* EAView.swift */,
-				76A5A307DA1BCD20A0F9934F8D4911AE /* UINibExtension.swift */,
-				65FFD81882F10ECC5E7949334EBB812D /* Pod */,
-				DE9FF759D8F925B37E8E75A4D9F1403F /* Resources */,
-				A17B4A9D99CE5F781F8A388E45242314 /* Support Files */,
-			);
-			name = EA;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		4993227BBB76A0BCD792F574BD97C36E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,14 +147,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		65FFD81882F10ECC5E7949334EBB812D /* Pod */ = {
+		690FA3F6D1B7C0708F25E961AF4BCDA8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8B6357803574CBBCF23AA2E8705983BE /* EA.podspec */,
-				6D7B461F9B215F3090334A0B8507A762 /* LICENSE */,
-				597021F7AB1BE5B376AD4255367CF72F /* README.md */,
+				09E5FBB1F86664483434857ACF01D6C4 /* EA.modulemap */,
+				B11288EA66C8D2E7420620261076D52E /* EA.xcconfig */,
+				9BEF345CBB8D9F34FECBA680F176546A /* EA-dummy.m */,
+				FE43CF58B7ABDAE96096324409D28B11 /* EA-Info.plist */,
+				F82A2EA17BED8A2A360A17427523EAEE /* EA-prefix.pch */,
+				53288B0D41CD1EE05235A0091E402C3B /* EA-umbrella.h */,
+				77A68CE0A53C1147831C816551079CE8 /* ResourceBundle-EA-EA-Info.plist */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EA";
+			sourceTree = "<group>";
+		};
+		6ACBDCE7223524EBC410A4CBE0A0BAEE /* EA */ = {
+			isa = PBXGroup;
+			children = (
+				3C1478D1802BA1698073FB164E775AFC /* CustomView.swift */,
+				3C8A8286EA79BECCC59110602F50E9CF /* UINibExtension.swift */,
+				EB61B69B23A9FC3106A8290F24C814BD /* Pod */,
+				A632F7D557D1BD3C1947A8BF56325AE4 /* Resources */,
+				690FA3F6D1B7C0708F25E961AF4BCDA8 /* Support Files */,
+			);
+			name = EA;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9FB0253ED579D899A99518A2B38E0FA2 /* Pods-EA_Tests */ = {
@@ -189,27 +191,12 @@
 			path = "Target Support Files/Pods-EA_Tests";
 			sourceTree = "<group>";
 		};
-		A17B4A9D99CE5F781F8A388E45242314 /* Support Files */ = {
+		A632F7D557D1BD3C1947A8BF56325AE4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4C474454193FDB3414553F79B2918B36 /* EA.modulemap */,
-				76D2E3ACE02FB2DA0A3FA52F06A25852 /* EA.xcconfig */,
-				F8AD79EFCA5B9AB706EDEB594EA9B211 /* EA-dummy.m */,
-				4562B3877AC49F735E8D9304FF63DEED /* EA-Info.plist */,
-				7BB1EAEECA9AA4AC5F8C6C57DF74EE9D /* EA-prefix.pch */,
-				4D83205E5477E45EAFB3DE1299E561A0 /* EA-umbrella.h */,
-				9C27F4DDF1D0CFEF89E60EBE3E99C8F9 /* ResourceBundle-EA-EA-Info.plist */,
+				5348F335A244DBBFB01A92DE56A4C75C /* CustomView.xib */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EA";
-			sourceTree = "<group>";
-		};
-		AFE8AD4AD620ACE9D6511F9BE10A7864 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1C3F4D84DA9E37BD20CC3B8CABE23935 /* EA */,
-			);
-			name = "Development Pods";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -224,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AFE8AD4AD620ACE9D6511F9BE10A7864 /* Development Pods */,
+				F901D1DEFBC142A516A750625E6F17B1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				DDBC6904CCAD769BFE58772CD0532536 /* Products */,
 				4993227BBB76A0BCD792F574BD97C36E /* Targets Support Files */,
@@ -250,12 +237,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE9FF759D8F925B37E8E75A4D9F1403F /* Resources */ = {
+		EB61B69B23A9FC3106A8290F24C814BD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				07029D834578206FA91A48D93F0C617C /* CustomView.xib */,
+				C6E4DC70720555A4A20BC20771407489 /* EA.podspec */,
+				93308EC44724575FD5F93BF4382EBEFB /* LICENSE */,
+				4873D274541B558C3E3A224F5BB8FBD3 /* README.md */,
 			);
-			name = Resources;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F901D1DEFBC142A516A750625E6F17B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ACBDCE7223524EBC410A4CBE0A0BAEE /* EA */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,19 +266,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		470E5A358670069B603C50B4F7260B57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275E9E1737956DBA581E23D92FAEC33D /* EA-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		938945C01AFCC9E758365FDB69F101DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D91E091EFBCD4490816440BDF3D3B6E /* Pods-EA_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC03FA1217DE708673DC8BC8D672BCBD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F8C6F4DBC911FEFC7CE2FE2CCAA4CF5 /* EA-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,11 +306,11 @@
 		};
 		385BB36A41DE371B5751705276D93C85 /* EA-EA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2326B5C888D5E385897CAC7B36DFE66 /* Build configuration list for PBXNativeTarget "EA-EA" */;
+			buildConfigurationList = E466EEA0678DA45FDB51132351670587 /* Build configuration list for PBXNativeTarget "EA-EA" */;
 			buildPhases = (
-				10F331B05D2593DBEF00274D27AECB71 /* Sources */,
-				5B06F1304B7041C797DE4026973FED0D /* Frameworks */,
-				9300C6C0D84033226809943F6654C692 /* Resources */,
+				1CDD2020977109D530F1D8B37C2C2703 /* Sources */,
+				EF255EC768092412F1ED6A0BE08D2B95 /* Frameworks */,
+				E60EC4294AC81FE818D7B0F48BBA9495 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -326,17 +323,17 @@
 		};
 		437943655D4FD0C32733C9B2DF6095F4 /* EA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F36433581DDF5ECD07E1804A650534BA /* Build configuration list for PBXNativeTarget "EA" */;
+			buildConfigurationList = F179EB427C10FC0F0245693E0D2B8167 /* Build configuration list for PBXNativeTarget "EA" */;
 			buildPhases = (
-				BC03FA1217DE708673DC8BC8D672BCBD /* Headers */,
-				C60852DA7B0AC1196998DFBCD24B4D1B /* Sources */,
-				2785F0E812698D19BC0C4461ECA6B95C /* Frameworks */,
-				50FCEC99D36EA13A4B4AF89F831FE850 /* Resources */,
+				470E5A358670069B603C50B4F7260B57 /* Headers */,
+				4138B4711B2DDD1F1427B4ABEC99C1F9 /* Sources */,
+				C79F5C32A898863F5BA9DB1CC0EE77CC /* Frameworks */,
+				B497EF46D27BFB3C7F06E4691F17E45E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0C043EB19C2AF13D52402315433CD63F /* PBXTargetDependency */,
+				BA242A2D5C423A03E80FFAA9F24767C2 /* PBXTargetDependency */,
 			);
 			name = EA;
 			productName = EA;
@@ -406,27 +403,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50FCEC99D36EA13A4B4AF89F831FE850 /* Resources */ = {
+		B497EF46D27BFB3C7F06E4691F17E45E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2913E685B3C454F73BFBA85E7F6613B3 /* CustomView.xib in Resources */,
-				A7B96ED50314064B6DD4FBBBD34EAB73 /* EA.bundle in Resources */,
+				8D1F54882ECC034D5EFFC1A37E9C345E /* CustomView.xib in Resources */,
+				C2E4D6E2209EEAE9566980A78BE40546 /* EA.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9300C6C0D84033226809943F6654C692 /* Resources */ = {
+		E60EC4294AC81FE818D7B0F48BBA9495 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017FFA35920EBE6E682ACEE7CC181A2E /* CustomView.xib in Resources */,
+				1B104D93C0FE1905228D4B4C746F7710 /* CustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10F331B05D2593DBEF00274D27AECB71 /* Sources */ = {
+		1CDD2020977109D530F1D8B37C2C2703 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,6 +438,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4138B4711B2DDD1F1427B4ABEC99C1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1C6C6BCA6D0E4C16533A0566F96A17 /* CustomView.swift in Sources */,
+				93E37146AE4B3B771E5D5BEF90A4D5CC /* EA-dummy.m in Sources */,
+				679438155A8C20301A34A3C336C97BC9 /* UINibExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6E10060BA9D0FA8038AB9F6F4119E1C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -449,26 +456,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C60852DA7B0AC1196998DFBCD24B4D1B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F92993C998A01FADF49BD4C240F2DF0 /* CustomView.swift in Sources */,
-				B94D1BC020EC6D7F8AC51DAC8150A6FA /* EA-dummy.m in Sources */,
-				3C52603298504F4EA096764B79BC9762 /* EAView.swift in Sources */,
-				04430E0782FF04ABF470E6AA3647FB33 /* UINibExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C043EB19C2AF13D52402315433CD63F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "EA-EA";
-			target = 385BB36A41DE371B5751705276D93C85 /* EA-EA */;
-			targetProxy = 801150754728E49DD56242C99F0CAC0E /* PBXContainerItemProxy */;
-		};
 		16CF6D4648D06D9F4FFE11C650F7B1D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-EA_Example";
@@ -481,40 +471,15 @@
 			target = 437943655D4FD0C32733C9B2DF6095F4 /* EA */;
 			targetProxy = 0E52441F4CF90AD8C5D75043D85EA5B0 /* PBXContainerItemProxy */;
 		};
+		BA242A2D5C423A03E80FFAA9F24767C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EA-EA";
+			target = 385BB36A41DE371B5751705276D93C85 /* EA-EA */;
+			targetProxy = 497D4CD7ED8CF79B827028ADE94127EC /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C5F4DA2537A135D1179C9F6DB82E75E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76D2E3ACE02FB2DA0A3FA52F06A25852 /* EA.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EA/EA-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EA/EA-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EA/EA.modulemap";
-				PRODUCT_MODULE_NAME = EA;
-				PRODUCT_NAME = EA;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		13D81368751302E5A05C443CEACA3D57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0EFD11115F744DB37A599AB008C974A3 /* Pods-EA_Tests.release.xcconfig */;
@@ -549,64 +514,15 @@
 			};
 			name = Release;
 		};
-		16DF4B00A3BE5A344C58D58DE020D645 /* Release */ = {
+		3A1885881C6039B3F70BBFEA2680EF93 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76D2E3ACE02FB2DA0A3FA52F06A25852 /* EA.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EA/EA-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EA/EA-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EA/EA.modulemap";
-				PRODUCT_MODULE_NAME = EA;
-				PRODUCT_NAME = EA;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		85056CFE018EC9FF46B01E1EB9FB24D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76D2E3ACE02FB2DA0A3FA52F06A25852 /* EA.xcconfig */;
+			baseConfigurationReference = B11288EA66C8D2E7420620261076D52E /* EA.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EA";
 				IBSC_MODULE = EA;
 				INFOPLIST_FILE = "Target Support Files/EA/ResourceBundle-EA-EA-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = EA;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8DA0133233DBDD3DD1335B8F8E97CCC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76D2E3ACE02FB2DA0A3FA52F06A25852 /* EA.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EA";
-				IBSC_MODULE = EA;
-				INFOPLIST_FILE = "Target Support Files/EA/ResourceBundle-EA-EA-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = EA;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -678,6 +594,54 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A54DEC25A48BD5008405D5FA641CA56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11288EA66C8D2E7420620261076D52E /* EA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EA/EA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EA/EA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EA/EA.modulemap";
+				PRODUCT_MODULE_NAME = EA;
+				PRODUCT_NAME = EA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A656D2CC6409921AAA58B32145131759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11288EA66C8D2E7420620261076D52E /* EA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EA";
+				IBSC_MODULE = EA;
+				INFOPLIST_FILE = "Target Support Files/EA/ResourceBundle-EA-EA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -805,6 +769,38 @@
 			};
 			name = Debug;
 		};
+		DEA61C7D3E14CC4A663C8CA76B819005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11288EA66C8D2E7420620261076D52E /* EA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EA/EA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EA/EA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EA/EA.modulemap";
+				PRODUCT_MODULE_NAME = EA;
+				PRODUCT_NAME = EA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FE91DEDADEE1EC8578519B4F203B0D21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 079385E5871140038B9016A38A625C6A /* Pods-EA_Example.release.xcconfig */;
@@ -860,15 +856,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2326B5C888D5E385897CAC7B36DFE66 /* Build configuration list for PBXNativeTarget "EA-EA" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				85056CFE018EC9FF46B01E1EB9FB24D4 /* Debug */,
-				8DA0133233DBDD3DD1335B8F8E97CCC3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DC3E73775C4E54B6F4E7AEBDD9D5DCB3 /* Build configuration list for PBXNativeTarget "Pods-EA_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -878,11 +865,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F36433581DDF5ECD07E1804A650534BA /* Build configuration list for PBXNativeTarget "EA" */ = {
+		E466EEA0678DA45FDB51132351670587 /* Build configuration list for PBXNativeTarget "EA-EA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C5F4DA2537A135D1179C9F6DB82E75E /* Debug */,
-				16DF4B00A3BE5A344C58D58DE020D645 /* Release */,
+				A656D2CC6409921AAA58B32145131759 /* Debug */,
+				3A1885881C6039B3F70BBFEA2680EF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F179EB427C10FC0F0245693E0D2B8167 /* Build configuration list for PBXNativeTarget "EA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54DEC25A48BD5008405D5FA641CA56E /* Debug */,
+				DEA61C7D3E14CC4A663C8CA76B819005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

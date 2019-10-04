@@ -16,13 +16,15 @@
     "tag": "0.1.01"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
+  "swift_versions": "5.0",
   "source_files": "EA/Classes/**/*",
   "resources": "EA/Assets/**/*.*",
   "resource_bundles": {
     "EA": [
       "EA/Assets/**/*.*"
     ]
-  }
+  },
+  "swift_version": "5.0"
 }
